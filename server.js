@@ -63,7 +63,7 @@ app.use(function (err, req, res, next) {
   res.send(err.message);
 });
 
-const PORT = 3150;
+const PORT = 3000;
 app.listen(PORT, function () {
   console.log("Server is started on http://127.0.0.1:" + PORT);
 });
